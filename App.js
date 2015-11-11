@@ -102,8 +102,3 @@ Ext.define("CustomApp",{
 		void 0===this._myGrid?this._createGrid(myStore):this._myGrid.reconfigure(myStore)
 	}
 });
-
-Rally.launchApp('CustomApp', {
-	name:"WSJF_Updated",
-	parentRepos:""
-});
